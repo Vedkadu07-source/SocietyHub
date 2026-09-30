@@ -1,0 +1,10 @@
+{
+  "description": "A premium platform for residential societies to manage operations, finances, notices, and resident services with a modern, data-rich interface.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
