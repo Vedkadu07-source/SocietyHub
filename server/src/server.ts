@@ -9,6 +9,6 @@ if (existing.societies.length === 0) {
   await updateDatabase(database => Object.assign(database, seeded))
 }
 
-app.listen(env.port, () => {
+app.listen(env.port, '0.0.0.0', () => {
   console.info(`SocietyHub API listening on http://localhost:${env.port}`)
 })
